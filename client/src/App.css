@@ -1,0 +1,54 @@
+
+.background{
+  background-color: #4a536b;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+input[type="file"]{
+  display: none;
+}
+
+.avatar{
+  cursor: pointer;
+  padding: 150px 100px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 750ms all;;
+}
+
+.avatar:hover{
+  background-color: rgb(165, 163, 163);
+  padding: 160px 110px;
+  font-size: large;
+}
+
+.avatar-content{
+  text-align: center;
+  width: 20vw;
+  background-color: #aed6dc;
+  height: 500px;
+  margin-left: 40%;
+  padding-top: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+#name{
+  margin-top: 300px;
+}
+
+.retrieve{
+  margin-left: 47%;
+  margin-top: 2vh;
+}
+
+img{
+  position: absolute;
+  left: 42%;
+  top: 10%;
+  border-radius: 50%;
+}
